@@ -1,0 +1,390 @@
+#header1{
+    height: 65vh;
+    background-image: url("images/mac.jpg");
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+
+}
+.horz-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horz-list li{
+    display: inline-block;
+    margin:10px 20px 8px 0px;
+}
+.horz-list li a{
+    color: white;
+    text-decoration: none;
+}
+.horz-list li a:hover{
+    color: white;
+    border-bottom: 1px solid;
+}
+.text-center{
+    text-align: center;
+}
+#name1{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-top: 200px;  
+}
+#about{
+    height: auto;
+    width: 100%;
+}
+#my-image{
+     height: 19rem;
+     width: 19rem;
+     margin: auto;
+     margin-top: -16vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+}
+#par{
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#skills{
+    width: 100%;
+    height:50vh ;
+    display: flex;
+    flex-direction: column;
+    align-items:center;  
+}
+#skills-1{
+    width: 75%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 15px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 20px;
+}
+section:nth-child(2n){
+    background-color: #9e9b9b29;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+section:target {
+    background-color: rgb(200, 210, 166);
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400px;
+}
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skills-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill-progress{
+    width: 7rem;
+    height:1.4rem;
+    background-color:grey;
+    border-radius: 0.8rem;
+    /*border: 2px solid black;*/
+}
+
+.eighty-zero-percent{
+    width: 60%;
+    height: inherit;
+}
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+.seventy-percent{
+    width: 70%;
+    height: inherit;
+}
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.mb-blue{
+    background-color: #c96098;
+}
+.mb-a{
+    background-color: #8c316c;
+}.mb-b{
+    background-color: #2a705c;
+}.mb-c{
+    background-color: #d69d9d;
+}
+.mb-d{
+    background-color: #8d51be;
+}
+.mb-y{
+    background-color: #4e1616;
+}
+
+.timeline {
+    position: relative;
+    width: 75%;
+
+}
+
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    z-index: 1;
+
+}
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    z-index: 1;
+}
+
+.timeline-divider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.text-colour h1{
+    color: rgb(44, 44, 188) ;
+}
+.text-colour h3{
+    color: orange;
+}
+
+/*contact*/
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    /*#2857a4*/
+    color: var(--contact-light-text-color);
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ff5722;
+}
+
+
+.mb-teal {
+    background-color: #009688;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+}
+
+.m-blue {
+    color: #2857a4;
+}
+
+/*Common Percent classes*/
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.eighty-five-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.seventy-five-percent {
+    height: inherit;
+    width: 75%;
+}
+
+/* common margin classes */
+.m0 {
+    margin: 0;
+}
